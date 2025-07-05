@@ -45,29 +45,32 @@ It returns **3 smart next-sentence predictions** crafted by AI ✂️
 
 ## 📦 Setup Instructions
 
-### 1. 🚀 Clone the project
-```bash
-git clone https://github.com/yourusername/TextTailor_AI.git
-cd TextTailor_AI
+📦 Setup Instructions
 
-2.	Create virtual env + install dependencies
-       python3 -m venv venv
-       source venv/bin/activate
-       pip install -r requirements.txt
+1. 🚀 Clone the project  
+git clone https://github.com/yourusername/TextTailor_AI.git  
+cd TextTailor_AI  
 
-3. Add your .env file
-     Create a .env file and add:
-           GEMINI_API_KEY=your_actual_api_key
-          FLASK_ENV=development
-          FLASK_DEBUG=True
-          SECRET_KEY=your_secret_key_here
+2. 🧪 Create a virtual environment and install dependencies  
+python3 -m venv venv  
+source venv/bin/activate  
+pip install -r requirements.txt  
 
+3. 🔐 Create your .env file  
+Inside the project folder, create a file named `.env` and add the following:
 
-4.	Run the app
-     python app.py
+GEMINI_API_KEY=your_actual_api_key_here  
+FLASK_ENV=development  
+FLASK_DEBUG=True  
+SECRET_KEY=your_custom_secret_key  
 
-5.	Visit it on your browser
-      http://127.0.0.1:5051/
+(You can get your Gemini API key from: https://aistudio.google.com/app/apikey)
+
+4. 🚴 Run the Flask app  
+python app.py  
+
+5. 🌐 Open in your browser  
+http://127.0.0.1:5051
 
 
 
