@@ -48,7 +48,7 @@ It returns **3 smart next-sentence predictions** crafted by AI ✂️
 📦 Setup Instructions
 
 1. 🚀 Clone the project  
-git clone https://github.com/yourusername/TextTailor_AI.git  
+git clone https: [https://github.com/Ayush-07-Mishra/NextPrompt_AI.](https://github.com/Ayush-07-Mishra/NextPrompt_AI.git)
 cd TextTailor_AI  
 
 2. 🧪 Create a virtual environment and install dependencies  
