@@ -1,49 +1,54 @@
-# 🔮 NextPrompt_AI — Predict the Next Sentence Like a Fortune Teller
+# ✂️ TextTailor AI — Snip the Next Sentence with AI Precision
 
-Ever started a sentence and didn’t know how to finish it?  
-**NextPrompt_AI** is your ✨ AI-powered wingman ✨ that completes your thoughts using Google Gemini!
+![Python](https://img.shields.io/badge/Python-3.12-blue.svg)
+![Flask](https://img.shields.io/badge/Flask-Web%20Framework-green)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Status](https://img.shields.io/badge/Project-Active-brightgreen)
+
+> ✨ **TextTailor AI** finishes your sentences like a mind-reading editor.  
+> Just enter your line — it predicts 3 witty or wise continuations using **Google Gemini 1.5 Flash**.
 
 ---
 
 ## 🚀 What Does It Do?
 
-You enter a sentence.  
-It replies with 3 AI-generated continuations that feel like a mind reader finished your story.
+You type a sentence.  
+It returns **3 smart next-sentence predictions** crafted by AI ✂️
 
-Perfect for:
-- Writers with writer’s block ✍️  
-- Memers writing captions 🤳  
-- Coders making cool demos 💻  
-- Anyone who loves fun AI stuff 🤖
+🎯 Great for:
+- Writers battling creative blocks 🧠  
+- Gen-Z meme makers 🤳  
+- Developers learning AI APIs 💻  
+- Curious minds exploring language fun 🤹
 
 ---
 
 ## 🧠 How It Works
 
-- Frontend built with **Flask + HTML + TailwindCSS**
-- User enters the first sentence
-- **Gemini 1.5 Flash** model (Google Generative AI) predicts 3 possible next lines
-- Gemini is accessed securely using your `.env` API key
-- Output is rendered in a Gen-Z inspired modern UI with background images, colors & bounce 🪩
+- 🧰 **Built with Flask + HTML + TailwindCSS**
+- ✍️ You enter the start of a sentence
+- 🤖 Gemini 1.5 Flash model continues your thoughts
+- 🔐 Uses `.env` API key for secure model access
+- 🎨 Output is shown in a stylish, colorful UI
 
 ---
 
 ## 🎯 Features
 
-✅ Gemini 1.5 Flash integration  
-✅ Styled UI (not boring, promise)  
-✅ 3 Realistic Predictions  
-✅ Error handling + fallback  
-✅ Built for local or cloud  
+✅ Google Gemini 1.5 Flash integration  
+✅ Gen-Z inspired custom UI  
+✅ 3 creative next-line predictions  
+✅ Error handling with fallback  
+✅ Works locally or can be deployed on cloud  
 
 ---
 
 ## 📦 Setup Instructions
 
-1. **Clone it**
-   ```bash
-   git clone https://github.com/yourusername/NextPrompt_AI.git
-   cd NextPrompt_AI
+### 1. 🚀 Clone the project
+```bash
+git clone https://github.com/yourusername/TextTailor_AI.git
+cd TextTailor_AI
 
 2.	Create virtual env + install dependencies
        python3 -m venv venv
